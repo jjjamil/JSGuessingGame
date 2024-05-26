@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca91bb8cc8.js" crossorigin="anonymous"></script>
+    <title>Guessing Game</title>
+</head>
+
+<header>
+    <h1>Guess and Win Prizes</h1>
+    <h2>I have a number between 1 - 25</h2>
+    <h3>Dare to guess? Bring it on!</h3>
+</header>
+<div class="main-div">
+    <div class="content-div">
+        <h2>Enter your guess below and let's try your luck:</h2>
+        <input type="text" id=guess-input name="guess-input">
+    </div>
+    <div class="content-div score">
+        <label for="score">Score: </label>
+        <h2 id="score">0</h2>
+        <label for="remaining">Remaining Guess:</label>
+        <h2 id="remaining">2</h2>
+    </div>
+</div>
+
+<div class="modal spacing-elements" id="modalPlay">
+    <i class="fa-solid fa-face-sad-tear fa-bounce fa-2xl"></i>
+    <h3>Game Over! Try your luck next time.</h3>
+    <button id="playAgainBtn">Play Again</button>
+</div>
+
+
+
+<body>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
